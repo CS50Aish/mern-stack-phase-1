@@ -6,3 +6,8 @@ h1 {
 div p {
     color: blueviolet;
 }
+
+table, tr, th, td {
+    color: hotpink;
+    border: 2px solid black;
+}
