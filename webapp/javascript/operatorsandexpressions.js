@@ -33,3 +33,18 @@ console.log("logicalNotValue: ", logicalNotValue);
 // Precedence and associativity
 let precedenceresult = num1 * num2 + (num1 - num2) / num2;
 console.log(precedenceresult);
+
+let associativityresult = num1 + (- num2) + num2;
+console.log(associativityresult);
+
+// Bitwise Operators
+
+let bitwiseandresult = num1 & num2;
+let bitwiseorresult = num1 | num2;
+let bitwiseleftshift = num1 << 1;
+let bitwiserightshift = num1 >> 2;
+
+console.log(bitwiseandresult);
+console.log(bitwiseorresult);
+console.log(bitwiseleftshift);
+console.log(bitwiserightshift);
