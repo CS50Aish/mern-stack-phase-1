@@ -13,7 +13,7 @@ console.log("Exponentiation(**): " +(num1 ** num2));
 // Comparison Operators
 
 let doubleEqualsResult = num1 == num2;
-console.log("num1==num2 : ", doubleEqualsResult);
+console.log("num1==num2 : ", doubleEqualsResult, " and type of doubleEqualsResult is: ", typeof doubleEqualsResult);
 console.log("num1===num2 : ", num1===num2);
 console.log("num1!=num2 : ", num1!=num2);
 console.log("num1>=num2 : ", num1>=num2);
@@ -30,3 +30,6 @@ console.log("logicalAndValue: ", logicalAndValue);
 console.log("logicalOrValue: ", logicalOrValue);
 console.log("logicalNotValue: ", logicalNotValue);
 
+// Precedence and associativity
+let precedenceresult = num1 * num2 + num1 - num2 / num2;
+console.log(precedenceresult)
