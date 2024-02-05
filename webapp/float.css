@@ -12,3 +12,8 @@ body{
     display: inline-block;
     background-color: lightseagreen;
 }
+
+img{
+    float: right;
+    margin-left: 200px;
+}
