@@ -73,3 +73,18 @@ for(let i = 0; i <= concatenatedArray.length; i++)
 {
     console.log("Value at index: ",i,"is:",concatenatedArray[i]);
 }
+
+console.log("Iterating array using forEach: ");
+concatenatedArray.forEach(val => console.log(val));
+
+console.log("Filtering out even numbers from concanetatedArray: ");
+let evenNumbersArray = concatenatedArray.filter(val => val%2 == 0);
+
+console.log("evenNumbersArray: ",evenNumbersArray);
+console.log("Transforming values in an array using map: ");
+let squaredValArray = concatenatedArray.map(val => val * val);
+console.log("Sqaure Val Array: ",squaredValArray);
+
+console.log("Adding all values in an array using reduce: ");
+let sum = concatenatedArray.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
+console.log("Sum of all elements in an array: ",sum);
