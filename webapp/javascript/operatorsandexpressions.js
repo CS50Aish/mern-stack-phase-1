@@ -31,5 +31,5 @@ console.log("logicalOrValue: ", logicalOrValue);
 console.log("logicalNotValue: ", logicalNotValue);
 
 // Precedence and associativity
-let precedenceresult = num1 * num2 + num1 - num2 / num2;
-console.log(precedenceresult)
+let precedenceresult = num1 * num2 + (num1 - num2) / num2;
+console.log(precedenceresult);
