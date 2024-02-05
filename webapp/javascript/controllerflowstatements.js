@@ -72,7 +72,7 @@ do
 }while(doWhileCounter > 0);
 
 console.log("For In loop: ");
-let person = {Name: "John", Age:30, Job:"Developer"};
+let person = {Name: "John", Age:30, Job:"Developer"}; // Key : Value
 
 for(let key in person)
 {
