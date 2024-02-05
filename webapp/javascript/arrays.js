@@ -88,3 +88,26 @@ console.log("Sqaure Val Array: ",squaredValArray);
 console.log("Adding all values in an array using reduce: ");
 let sum = concatenatedArray.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
 console.log("Sum of all elements in an array: ",sum);
+
+// Sorting and Searching
+
+let unsortedAlphabeticalArray = ["Q", "W", "E", "R", "T", "Y"];
+let unsortedNumricalArray = [5, 2, 7, 1, 9, 6, 3];
+
+let sortedAlphabeticalArray = unsortedAlphabeticalArray.sort();
+let sortedNumericalArray = unsortedNumricalArray.sort();
+
+console.log(sortedAlphabeticalArray);
+console.log(sortedNumericalArray);
+
+let numericalArray = [10, 20, 30, 200, 400, 1000, 10000, 5000, 500];
+console.log("filterArray: ",numericalArray.filter(num => num > 1000));
+console.log("findArray: ",numericalArray.find(num => num > 1000));
+
+console.log(numericalArray.includes(400));
+console.log(numericalArray.indexOf(5000));
+
+let multidimentionalArray = [[1, 2, 3], [4, 5, 6], [7, 8, 9]];
+console.log(multidimentionalArray[0][0] + " and type is " + typeof multidimentionalArray[0]);
+
+
