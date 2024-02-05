@@ -32,10 +32,10 @@ console.log("logicalNotValue: ", logicalNotValue);
 
 // Precedence and associativity
 let precedenceresult = num1 * num2 + (num1 - num2) / num2;
-console.log(precedenceresult);
+console.log("PrecedenceResult: ",precedenceresult);
 
 let associativityresult = num1 + (- num2) + num2;
-console.log(associativityresult);
+console.log("AssociativityResult: ",associativityresult);
 
 // Bitwise Operators
 
@@ -44,7 +44,14 @@ let bitwiseorresult = num1 | num2;
 let bitwiseleftshift = num1 << 1;
 let bitwiserightshift = num1 >> 2;
 
-console.log(bitwiseandresult);
-console.log(bitwiseorresult);
-console.log(bitwiseleftshift);
-console.log(bitwiserightshift);
+console.log("bitwiseandresult: ",bitwiseandresult);
+console.log("bitwiseorresult: ",bitwiseorresult);
+console.log("bitwiseleftshift: ",bitwiseleftshift);
+console.log("bitwiserightshift: ",bitwiserightshift);
+
+console.log("Binary of num1: ", num1.toString(2));
+
+// Ternary Operator
+num2 = 20;
+let ternaryResult = num1 > num2 ? "Number1 is greater" : "Number2 is greater";
+console.log("ternaryresult: ",ternaryResult);
