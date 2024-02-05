@@ -9,3 +9,13 @@ console.log(str3, " and type is ", typeof str3);
 let str4 = new String("I am a non-primitive object");
 console.log(str4, "and the type is", typeof str4);
 console.log("First character of str1:", str1.charAt(0));
+console.log("Last character of str1: ",str1.charAt(str1.length - 1));
+
+//console.log("Last character at str1: ",str1.charAt(str1.lastIndexOf));
+
+console.log(str1.length);
+console.log(str1.constructor);
+console.log(str1.constructor.prototype);
+console.log(str1 + " ========= " + str1.charCodeAt(7));
+console.log(str1.concat(" ").concat(str2).concat("\n").concat(str3));
+console.log(str1 + " ========== " + str1.search("Everyone"));
