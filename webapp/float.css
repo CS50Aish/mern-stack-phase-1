@@ -1,0 +1,14 @@
+*{
+    background-color: bisque;
+}
+
+p{
+    text-decoration: underline;
+    text-decoration-color: brown;
+    background-color: cadetblue;
+}
+
+body{
+    display: inline-block;
+    background-color: lightseagreen;
+}
