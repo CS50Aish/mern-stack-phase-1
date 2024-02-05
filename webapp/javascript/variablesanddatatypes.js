@@ -1,4 +1,4 @@
-const { type } = require("chai/lib/chai/utils");
+//const { type } = require("chai/lib/chai/utils");
 
 console.log("Welcome to my javascript file");
 
@@ -36,4 +36,6 @@ console.log("String Value: ", booleanVal, " and its data type: ", typeof boolean
 let convertedStringVal = String(numberVal);
 console.log("Converted value from Number to String: ", convertedStringVal, " and its data type ", typeof convertedStringVal);
 
+let convertedNumberVal = String(convertedStringVal);
+console.log("Converted value from Number to String: ", convertedNumberVal, " and its data type ", typeof convertedNumberVal);
 
