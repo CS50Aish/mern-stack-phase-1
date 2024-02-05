@@ -3,7 +3,7 @@ h1 {
     background-color: aquamarine;
     text-align: center;
 }
-div {
+#paracontainer {
     color: blueviolet;
     border: 6px solid black;
     padding: 5%;
@@ -16,6 +16,34 @@ table, tr, th, td {
 }
 
 #mytable {
-    margin-top: 5%;
+    margin-top: 2%;
     background-image: url(images/mobilebackground.avif);
+}
+
+#linkcontainer{
+    margin-top: 2%;
+}
+
+#link1:link{
+    background-color: chartreuse;
+}
+
+#link1:visited{
+    background-color: blueviolet;
+}
+
+#link1:hover{
+    background-color: chocolate;
+}
+
+#link2:link{
+    background-color: gold;
+}
+
+#link2:visited{
+    background-color: blanchedalmond;
+}
+
+#link2:hover{
+    background-color: darkgrey;
 }
