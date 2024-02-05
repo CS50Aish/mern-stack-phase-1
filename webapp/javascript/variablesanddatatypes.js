@@ -1,5 +1,3 @@
-//const { type } = require("chai/lib/chai/utils");
-
 console.log("Welcome to my javascript file");
 
 // Variables and Constants
@@ -39,3 +37,12 @@ console.log("Converted value from Number to String: ", convertedStringVal, " and
 let convertedNumberVal = String(convertedStringVal);
 console.log("Converted value from Number to String: ", convertedNumberVal, " and its data type ", typeof convertedNumberVal);
 
+// Anything positive and negative becomes true, only zero means false for boolean value
+let convertedBooleanVal = Boolean(numberVal);
+console.log("Converted value from Number to Boolean: ", convertedBooleanVal, " and its data type ", typeof convertedBooleanVal);
+
+let addStringNumber = "20" + 20;
+console.log("Added string and number :",addStringNumber, " and its data type is ", typeof addStringNumber);
+
+let subStringNumber = "20" - 20;
+console.log("Added string and number :",subStringNumber, " and its data type is ", typeof subStringNumber);
